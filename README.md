@@ -1,4 +1,4 @@
-# extreme_reviews_detection
+# When the best reviews are not placed between extremes
 
 Source code used in the paper 'When the best reviews are not placed between extremes', IJCNN 2022.
 
