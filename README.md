@@ -1,1 +1,7 @@
 # extreme_reviews_detection
+
+Source code used in the paper 'When the best reviews are not placed between extremes', IJCNN 2022.
+
+Several research studies have demonstrated the strong influence that online reviews exert on consumers' purchasing decisions. Specifically, those with extreme opinions, both favorable and unfavorable, are often considered more useful. This paper is focused on enhancing the detection of extreme reviews through sentiment analysis. For this purpose, a real scenario is taken into account, using the examples of all classes and dealing with the imbalance between them, which is characteristic in online reviews. The main objective is to carry out the classification with a high certainty and incurring as few errors as possible in relation to the examples belonging to the rest of the classes. Therefore, the emphasis is on the quality of the predictions rather than on the quantity. Using XLNet, we show how the transfer of knowledge extracted from the source domain (i.e., the extreme reviews) improves their detection regarding the overall number of errors made in the target domain (i.e., multi-class classification).
+
+To run the experiments reported in the paper, download the project and run the file train.py. After running the file, the trained models will be saved in the 'results' folder and a csv file will be generated with the performance of the different experiments conducted.
